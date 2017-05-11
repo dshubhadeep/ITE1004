@@ -21,6 +21,7 @@ def gapInsertionSort(alist,start,gap):
 
         alist[position]=currentvalue
 
-alist = [54,26,93,17,77,31,44,55,20]
+alist = list(map(int,input().split()))
 shellSort(alist)
-print(alist)
+for j in alist:
+    print(j,end=" ")
